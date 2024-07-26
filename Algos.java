@@ -13,6 +13,8 @@ public class Algos {
     }
 
     public void convertMileCm(int x){
+        long res= (long) (160934.4*x);
+        System.out.println("convert from Mile to Cm"+res);
 
     }
 
