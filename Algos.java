@@ -25,11 +25,17 @@ public class Algos {
     }
 
     public void convertKMCm(int x){
+<<<<<<< HEAD
 		return x * 100000;
+=======
+			float result = x * 100000f;
+			
+			System.out.println(x + " Inches are equal to " + result + " centimeters";
+		System.out.println( x*1000*1000);
+>>>>>>> 530db0903c1cba8c886440f90f1099873f682b09
     }
     
     public void convertMeterCm(int x){
-        //comment to test
         int result = x * 100 ;
         System.out.println(x + "meters = " + result + "cm");
     }
