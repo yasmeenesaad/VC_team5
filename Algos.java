@@ -25,7 +25,7 @@ public class Algos {
     }
 
     public void convertKMCm(int x){
-
+		return x * 100000;
     }
     
     public void convertMeterCm(int x){
