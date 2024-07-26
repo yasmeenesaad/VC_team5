@@ -22,7 +22,7 @@ public class Algos {
     }
 
     public void convertKMCm(int x){
-
+		return x*1000*1000;
     }
     
     public void convertMeterCm(int x){
