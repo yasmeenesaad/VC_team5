@@ -21,7 +21,9 @@ public class Algos {
     }
     
     public void convertMeterCm(int x){
-
+        
+        int result = x * 100 ;
+        System.out.println(x + "meters = " + result + "cm");
     }
 
 }
