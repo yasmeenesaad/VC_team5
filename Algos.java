@@ -25,7 +25,8 @@ public class Algos {
     }
 
     public void convertKMCm(int x){
-
+        int result = 1000 * 100 * x;
+        System.out.println(x + "kilo meters = " + result + "cm");
     }
     
     public void convertMeterCm(int x){
