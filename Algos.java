@@ -25,7 +25,9 @@ public class Algos {
     }
 
     public void convertKMCm(int x){
-
+			float result = x * 100000f;
+			
+			System.out.println(x + " Inches are equal to " + result + " centimeters";
     }
     
     public void convertMeterCm(int x){
