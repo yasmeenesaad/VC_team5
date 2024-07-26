@@ -6,6 +6,9 @@ public class Algos {
 
     public void convertFeetCm(int x){
 
+        System.out.println(x+" cm = "+ x*30.48+" inches");
+	x= (int)( x*30.48);
+
     }
 
     public void convertInchCm(int x){
@@ -26,7 +29,9 @@ public class Algos {
     }
     
     public void convertMeterCm(int x){
-
+        
+        int result = x * 100 ;
+        System.out.println(x + "meters = " + result + "cm");
     }
 
 }
