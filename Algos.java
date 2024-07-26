@@ -10,6 +10,9 @@ public class Algos {
 
     public void convertInchCm(int x){
 
+			float result = x * 2.54f;
+			
+			System.out.println(x + " Inches are equal to " + result + " cm ";
     }
 
     public void convertMileCm(int x){
