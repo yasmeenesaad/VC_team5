@@ -28,10 +28,10 @@ public class Algos {
 			float result = x * 100000f;
 			
 			System.out.println(x + " Inches are equal to " + result + " centimeters";
+		System.out.println( x*1000*1000);
     }
     
     public void convertMeterCm(int x){
-        //comment to test
         int result = x * 100 ;
         System.out.println(x + "meters = " + result + "cm");
     }
