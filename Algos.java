@@ -13,6 +13,9 @@ public class Algos {
 
     public void convertInchCm(int x){
 
+			float result = x * 2.54f;
+			
+			System.out.println(x + " Inches are equal to " + result + " centimeters";
     }
 
     public void convertMileCm(int x){
@@ -26,7 +29,8 @@ public class Algos {
     }
     
     public void convertMeterCm(int x){
-
+        int result = x * 100 ;
+        System.out.println(x + "meters = " + result + "cm");
     }
 
 }
