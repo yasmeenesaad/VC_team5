@@ -35,6 +35,11 @@ public class Algos {
         int result = x * 100 ;
         System.out.println(x + "meters = " + result + "cm");
         // don't do any thing here ya noooooora
+
+        // this comment to test if branches works
+		// new comment ahmed
+		//testtttttttttt
+
     }
 
 }
