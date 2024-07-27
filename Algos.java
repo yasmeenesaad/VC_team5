@@ -34,8 +34,11 @@ public class Algos {
     public void convertMeterCm(int x){
         int result = x * 100 ;
         System.out.println(x + "meters = " + result + "cm");
+
         // this comment to test if branches works
 		// new comment ahmed
+		//testtttttttttt
+
     }
 
 }
